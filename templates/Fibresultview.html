@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/resultview.css') }}">
+<body>
+<table align="center" class="center">
+   <tr>
+      <th> SEQUENCE NUMBER </th>
+      <th> FIB VALUE </th>
+   </tr>
+   {%for i in range(0,num)%}
+   <tr>
+      <td>{{i+1}}</td>
+      <td>{{map[i]}}</td>
+   </tr>
+   {% endfor %}
+
+</table>
+</body>
+</html>

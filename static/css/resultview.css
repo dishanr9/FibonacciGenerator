@@ -1,0 +1,33 @@
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+table.center {
+    width:50%;
+    margin-top:15%;
+    margin-left:15%;
+    margin-right:15%;
+}
+ body {
+text-align:center;
+}
+
+label{
+font : 400 14px Arial;
+}
+
+form{
+margin-top:12%;
+}
+
+input.boldButton {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 6px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin-top:15px;
+}
